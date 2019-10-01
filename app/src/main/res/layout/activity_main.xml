@@ -10,8 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="178dp">
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-133dp">
 
         <EditText
             android:id="@+id/editText"
@@ -32,6 +32,7 @@
             android:inputType="textPersonName"
             android:text="Tulis pesan disini...." />
 
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
@@ -39,32 +40,100 @@
             android:layout_above="@id/button2"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginRight="21dp"
-            android:layout_marginBottom="85dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="391dp"
             android:background="#A3CFF3"
             android:padding="10dp"
-            android:text="Hai apa kabar juga.."
+            android:text="Siapa yaa?."
             android:textColor="#2D2F31"
-            android:textSize="24sp" />
+            android:textSize="14sp" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@id/textView"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="10dp"
-            android:layout_marginLeft="11dp"
+            android:layout_marginLeft="6dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginBottom="168dp"
+            android:layout_marginBottom="346dp"
             android:background="#5EDA63"
             android:padding="10dp"
-            android:text="Hello...apa kabar??"
+            android:text="Aku koko, Kamu siapa namanya ?"
             android:textColor="#033505"
-            android:textSize="24sp" />
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/button2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="285dp"
+            android:background="#A3CFF3"
+            android:padding="10dp"
+            android:text="Aku roro"
+            android:textColor="#2D2F31"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="230dp"
+            android:background="#5EDA63"
+            android:padding="10dp"
+            android:text="Kamu kok? ehehe...gajadi deng"
+            android:textColor="#033505"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/button2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="169dp"
+            android:background="#A3CFF3"
+            android:padding="10dp"
+            android:text="Ga jelas banget si "
+            android:textColor="#2D2F31"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="95dp"
+            android:background="#5EDA63"
+            android:padding="10dp"
+            android:text="Gpp aku gajelas yang penting sayang ku ke kamu jelas, engga blur"
+            android:textColor="#033505"
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/button2"
@@ -75,5 +144,6 @@
             android:layout_marginRight="2dp"
             android:layout_marginBottom="11dp"
             android:text="SEND" />
+
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
